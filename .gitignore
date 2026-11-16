@@ -1,0 +1,45 @@
+# AI Visibility Booster — .gitignore
+
+# WordPress core (don't include WP itself)
+/wordpress/
+/wp-admin/
+/wp-includes/
+/wp-config.php
+
+# Node / npm (not used by this plugin, but just in case)
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Composer
+vendor/
+composer.lock
+
+# Compiled / build artefacts
+*.min.js
+*.min.css
+*.map
+
+# OS artefacts
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# PHP error logs
+*.log
+error_log
+
+# ZIP packages (don't commit the distributable inside the repo)
+*.zip
+
+# Temporary / backup files
+*.bak
+*.tmp
+*.swp
+*~
